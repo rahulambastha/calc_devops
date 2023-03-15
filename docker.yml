@@ -1,0 +1,11 @@
+---
+- name: Deploy Docker Container
+  hosts: all
+  gather_facts: true
+  tasks:
+  
+    - name: Pull docker container from docker hub
+      shell: "docker pull rahul2331998/spe_devops"
+    
+    - name: Run docker container on system
+      shell: "docker run -it -d --name calculator rahul2331998/spe_devops" 
