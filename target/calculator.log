@@ -1,0 +1,8 @@
+INFO	2023-03-17 16:36:04,759	0	org.example.Main	[main]	[FACTORIAL] - 6.0
+INFO	2023-03-17 16:36:04,763	4	org.example.Main	[main]	[RESULT - FACTORIAL] - 720.0
+INFO	2023-03-17 16:36:07,711	2952	org.example.Main	[main]	[SQ ROOT] - 10.0
+INFO	2023-03-17 16:36:07,713	2954	org.example.Main	[main]	[RESULT - SQ ROOT] - 3.1622776601683795
+INFO	2023-03-17 16:36:11,571	6812	org.example.Main	[main]	[POWER - 5.0 RAISED TO] 4.0
+INFO	2023-03-17 16:36:11,573	6814	org.example.Main	[main]	[RESULT - POWER] - 625.0
+INFO	2023-03-17 16:36:27,194	0	org.example.Main	[main]	[FACTORIAL] - 5.0
+INFO	2023-03-17 16:36:27,196	2	org.example.Main	[main]	[RESULT - FACTORIAL] - 120.0

@@ -1,4 +1,5 @@
 package org.example;
+import org.apache.log4j.BasicConfigurator;  
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -14,6 +15,7 @@ public class Main{
     }
 
     public static void main(String[] args) {
+         BasicConfigurator.configure();  
 
         Main calculator = new Main();
         Scanner scanner = new Scanner(System.in);
@@ -35,6 +37,7 @@ public class Main{
                     System.out.print("Enter a number : ");
                     number1 = scanner.nextDouble();
                     System.out.println("Factorial of "+number1+" is : " + calculator.factorial(number1));
+                    // logger.info("Factorial of "+number1+" is : " + calculator.factorial(number1));
                     System.out.println("\n");
 
                     break;
@@ -43,6 +46,7 @@ public class Main{
                     System.out.print("Enter a number : ");
                     number1 = scanner.nextDouble();
                     System.out.println("Square root of "+number1+" is : " + calculator.squareRoot(number1));
+                    // logger.info("Square root of "+number1+" is : " + calculator.squareRoot(number1));
                     System.out.println("\n");
 
 
@@ -54,6 +58,7 @@ public class Main{
                     System.out.print("Enter the second number : ");
                     number2 = scanner.nextDouble();
                     System.out.println(number1+ " raised to power "+number2+" is : " + calculator.power(number1, number2));
+                    // logger.info(number1+ " raised to power "+number2+" is : " + calculator.power(number1, number2));
                     System.out.println("\n");
                     break;
                 case 4:
@@ -61,6 +66,7 @@ public class Main{
                     System.out.print("Enter a number : ");
                     number1 = scanner.nextDouble();
                     System.out.println("Natural log of "+number1+" is : " + calculator.naturalLog(number1));
+                    // logger.info("Natural log of "+number1+" is : " + calculator.naturalLog(number1));
                     System.out.println("\n");
 
                     break;
