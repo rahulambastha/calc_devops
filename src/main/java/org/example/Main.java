@@ -28,7 +28,9 @@ public class Main{
             try {
                 choice = scanner.nextInt();
             } catch (InputMismatchException error) {
-                return;
+                System.out.println("Invalid input. Please enter a number.");
+        scanner.nextLine(); // consume the invalid input
+        continue; // repeat the loop
             }
 
             switch (choice) {
